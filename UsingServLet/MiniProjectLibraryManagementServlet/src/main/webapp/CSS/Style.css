@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #ddd;
+}
+input[type="text"] {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    margin-right: 10px;
+}
+
+button {
+    margin-right: 10px; /* Adds space between buttons */
+    padding: 10px 15px; /* Optional: Improves button size */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+a {
+    display: inline-block; /* Makes the link behave like a button */
+    padding: 10px 15px; /* Adds padding for button-like appearance */
+    text-decoration: none; /* Removes underline */
+    color: white; /* Text color */
+    background-color: #007BFF; /* Button background color */
+    border-radius: 5px; /* Rounds the corners */
+    font-size: 16px; /* Adjust size */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth effects */
+}
+
+a:hover {
+    background-color: #0056b3; /* Darker background on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+
+select {
+    width: 250px; /* Adjust width */
+    height: 40px; /* Adjust height */
+    padding: 5px; /* Add padding for better usability */
+    font-size: 16px; /* Set font size */
+    border: 1px solid #ccc; /* Add a subtle border */
+    border-radius: 5px; /* Round the corners */
+    background-color: #f9f9f9; /* Light background */
+    color: #333; /* Text color */
+    outline: none; /* Remove outline on focus */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover/focus effects */
+}
+
+select:hover {
+    border-color: #007BFF; /* Change border color on hover */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle glow */
+}
+
+select:focus {
+    border-color: #007BFF; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.8); /* Enhanced focus glow */
+}
+
+option {
+    font-size: 16px; /* Option font size */
+    padding: 5px; /* Add padding for dropdown items */
+    color: #333; /* Text color */
+}
+
+
+
+input[type="text"]:focus {
+    border-color: #007BFF;
+    box-
+
